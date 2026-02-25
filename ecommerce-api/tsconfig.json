@@ -1,14 +1,16 @@
 {
 
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "lib",
+    "rootDir": "./src",
+    "outDir": "./lib",
     "sourceMap": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noEmitOnError": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
   },
   "compileOnSave": true,
   "include": ["src/**/*"],
